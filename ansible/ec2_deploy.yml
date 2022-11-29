@@ -1,8 +1,8 @@
 - name: Deploy to EC2
- hosts: localhost
- connection: local
+  hosts: localhost
+  connection: local
 
- tasks:
+  tasks:
     - name: Launch EC2 Instance
       ec2: 
         instance_type: t2.micro
